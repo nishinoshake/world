@@ -1,0 +1,12 @@
+{
+  "name": "world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "browser-sync start --server public --files public"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14"
+  }
+}
