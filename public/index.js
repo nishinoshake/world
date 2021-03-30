@@ -1,8 +1,8 @@
 !(function() {
-  const DEFAULT_ZOOM = 8
-  const DEFAULT_SCALE = 0.3
-  const CENTER_LNG = 139.76716771496086
-  const CENTER_LAT = 35.68132334756972
+  const DEFAULT_ZOOM = 4
+  const DEFAULT_SCALE = 0.1
+  const CENTER_LNG = 137.6
+  const CENTER_LAT = 38
 
   function fetchTheaters() {
     return new Promise(resolve => {
